@@ -13,8 +13,7 @@ const useStyles = makeStyles(() => ({
     "overflow-x": "hidden",
   },
   main: {
-    marginBottom: "-1px",
-    minHeight: "85vh",
+    minHeight: "calc(100vh - 120px)",
   },
 
   component1: {
@@ -49,9 +48,6 @@ export default function Home() {
             <Route path="/">
               <Grid container spacing={2}>
                 <Grid className={classes.component1} item xs={12} sm={12}>
-                  {/* <Paper elevation={3}>
-                   Home
-                  </Paper> */}
                   <HomeComponent />
                 </Grid>
               </Grid>

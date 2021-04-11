@@ -21,3 +21,17 @@ it's made by using following technologies
     3. start App
     yarn start
 ```
+## Tasks Completed
+
+1. Homepage
+2. Multilingual Component
+
+
+## Demo ScreenShots
+
+- English
+  ![english](english.png)
+
+- German
+  ![german](german.png)
+
